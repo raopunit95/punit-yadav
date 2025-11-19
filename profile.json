@@ -1,0 +1,58 @@
+{
+  "name": "Punit Yadav",
+  "title": "Product Manager — Digital Healthcare",
+  "email": "puneetyadav95@gmail.com",
+  "phone": "7046729984",
+  "location": "Gurugram, Haryana, India",
+  "summary": "Product Manager with 6+ years experience in digital health products, workflow automation, chatbots, CRM systems, experimentation, and API-integrated journeys.",
+  "skills": {
+    "product": ["Product Strategy", "Roadmapping", "PRDs", "User Journeys", "GTM", "A/B Testing"],
+    "technical": ["MySQL", "Python (Basic)", "API Integrations", "n8n", "Typeform", "LeadSquared CRM"],
+    "analytics": ["Superset", "Looker Studio", "Redash"]
+  },
+  "experience": [
+    {
+      "role": "Product Manager",
+      "company": "MediBuddy",
+      "location": "Gurugram, India",
+      "from": "2025-01",
+      "to": "Present",
+      "highlights": [
+        "Increased organic leads to 100,000+/month generating ~₹11 Cr revenue",
+        "Built surgery chatbot saving 6 FTE & generating ₹28L/month leads",
+        "Improved conversions 1.2–1.3x with personalized flows",
+        "Scaled funnel traffic 90k → 1.5L/month via new entry points"
+      ]
+    },
+    {
+      "role": "Business Analyst (Analyst III), New Initiatives",
+      "company": "MediBuddy",
+      "location": "Gurugram, India",
+      "from": "2021-06",
+      "to": "2025-05",
+      "highlights": [
+        "Built LeadSquared CRM from scratch (250+ fields, 1L+ leads/month)",
+        "Created 62+ automations & 5 internal tools",
+        "Built 15+ dashboards with 200+ charts",
+        "Designed communication journeys across 22 email & 14 WhatsApp touchpoints"
+      ]
+    },
+    {
+      "role": "Operations Manager",
+      "company": "OLX People",
+      "location": "Gurugram, India",
+      "from": "2019-05",
+      "to": "2021-03",
+      "highlights": [
+        "Scaled hiring supply 12×, reduced TAT 3×",
+        "Improved joining rate 10% → 17%"
+      ]
+    }
+  ],
+  "education": {
+    "institution": "NIT Surat",
+    "degree": "Integrated M.Sc. in Applied Mathematics",
+    "cgpa": "8.21",
+    "years": "2014–2019"
+  }
+}
