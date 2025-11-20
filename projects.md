@@ -7,14 +7,14 @@ This section contains real product work, experiments, workflows, and systems I�
 ## **1. Surgery Booking Chatbot (MediBuddy)**
 - Automated OPD bookings through WhatsApp/Typeform  
 - Saved 6 FTE operational load  
-- Generated ₹28L/month leads and ₹35L/month auto-bookings  
+- Generated ₹35L/month revenue by auto-bookings  
 
 ---
 
 ## **2. LeadSquared CRM Implementation**
-- Built CRM from scratch with 250+ fields  
-- Managed ~100k monthly leads  
-- Created 62+ automations for insurance, ops, marketing, and product  
+- Customised CRM from scratch as per the business need.  
+- Created design that managed ~100k monthly leads.
+- Created 62+ automations, communications, alerts for insurance, ops, marketing, and product  
 
 ---
 
