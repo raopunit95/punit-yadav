@@ -1,15 +1,14 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
+# AI and search crawlers are welcome — this profile exists to be found and indexed.
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://raopunit95.github.io/punit-yadav/sitemap.xml
-
-# Allow important files
-Allow: /index.html
-Allow: /resume.html
-Allow: /projects.html
-Allow: /resume.pdf
-Allow: /profile.json
-
-# Disallow if you have any private or work-in-progress folders
-# Disallow: /drafts/

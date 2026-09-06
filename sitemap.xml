@@ -1,53 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <!-- Main homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://raopunit95.github.io/punit-yadav/</loc>
-    <lastmod>2025-11-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
-  </url>
-  
-  <!-- HTML page -->
-  <url>
-    <loc>https://raopunit95.github.io/punit-yadav/index.html</loc>
-    <lastmod>2025-11-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  
-  <!-- Resume markdown (if you have a rendered HTML version) -->
-  <url>
-    <loc>https://raopunit95.github.io/punit-yadav/resume.html</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>1.0</priority>
   </url>
-  
-  <!-- Projects page (if exists) -->
   <url>
-    <loc>https://raopunit95.github.io/punit-yadav/projects.html</loc>
-    <lastmod>2025-11-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
+    <loc>https://github.com/raopunit95/punit-yadav/blob/main/resume.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.9</priority>
   </url>
-  
-  <!-- PDF Resume - Keep this but lower priority -->
   <url>
-    <loc>https://raopunit95.github.io/punit-yadav/resume.pdf</loc>
-    <lastmod>2025-11-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.50</priority>
+    <loc>https://github.com/raopunit95/punit-yadav/blob/main/projects.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.9</priority>
   </url>
-  
-  <!-- JSON profile - Lower priority for technical indexing -->
   <url>
-    <loc>https://raopunit95.github.io/punit-yadav/profile.json</loc>
-    <lastmod>2025-11-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.40</priority>
+    <loc>https://github.com/raopunit95/punit-yadav/blob/main/case-studies/policy-decoder.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.8</priority>
   </url>
-  
+  <url>
+    <loc>https://github.com/raopunit95/punit-yadav/blob/main/case-studies/dental-booking.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://github.com/raopunit95/punit-yadav/blob/main/case-studies/bottom-nav-hub.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://github.com/raopunit95/punit-yadav/blob/main/case-studies/crm-migration.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raopunit95.github.io/gmc-decoder/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.7</priority>
+  </url>
 </urlset>
