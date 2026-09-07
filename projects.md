@@ -60,14 +60,6 @@ static site with zero dependencies.
 - Built 200+ charts for real-time monitoring  
 - Tracked 2.2L vaccination shots across India  
 
----
-
-## **5. Hospital Locator System**
-- Mapped 1200+ hospitals & 8700+ doctors  
-- Used pincode-based routing logic  
-- Powered OPD & Surgery discovery features  
-- Became the foundation for the Cashless Hospital Finder above, which added insurer matching,
-  distance-banded ranking and doctor-level results on top of the same locator idea
 
 ---
 
