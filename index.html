@@ -26,7 +26,23 @@
   "worksFor": { "@type": "Organization", "name": "MediBuddy" },
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "Sardar Vallabhbhai National Institute of Technology, Surat" },
   "sameAs": ["https://github.com/raopunit95", "https://linkedin.com/in/punit-yadav-2ab6a013b"],
-  "knowsAbout": ["Product Management", "Marketplace booking flows", "Growth", "CRM platforms", "Digital health", "Group health insurance", "Product analytics"]
+  "knowsAbout": ["Product Management", "Marketplace booking flows", "Growth", "CRM platforms", "Digital health", "Group health insurance", "Product analytics"],
+  "subjectOf": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Cashless Hospital Finder",
+      "url": "https://www.medibuddy.in/surgery-care/find-hospitals",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Policy Decoder",
+      "url": "https://www.medibuddy.in/surgery-care/policy",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web"
+    }
+  ]
 }
 </script>
 <style>
@@ -125,6 +141,7 @@
 
 <section>
   <div class="stats">
+    <div class="stat"><b>₹21 lakh</b><span>monthly booked value from the live hospital finder</span></div>
     <div class="stat"><b>90k → 150k</b><span>monthly funnel entries, 1.4× leads at flat cost</span></div>
     <div class="stat"><b>~2,300</b><span>leads/month from insurance transparency</span></div>
     <div class="stat"><b>60–70</b><span>surgeries/month booked with no human involved</span></div>
@@ -142,6 +159,26 @@
 
   <div class="cases">
     <article class="case">
+      <span class="kicker">0→1 · self-built prototype → live in production</span>
+      <h3>Cashless Hospital Finder — the question a patient actually asks</h3>
+      <p>&ldquo;Where can I have this surgery done, near me, without paying upfront?&rdquo; Insurer network
+      lists are PDFs organised by city; hospital directories are filed by medical department; neither is
+      organised the way anyone asks, so the lead-capture form standing in for an answer was losing 80% of
+      the users who reached it. I replaced it with pincode or city plus treatment and insurer, returning
+      hospitals ranked by distance, rating and insurance panel — then the doctors at that hospital who
+      perform the specific procedure. The hard part was neither maps nor ranking: patients search for a
+      condition, hospitals are filed by department, and &ldquo;Piles&rdquo; appears nowhere in a network
+      that calls it General Surgery. I built the prototype myself to prove that mapping worked before
+      committing an engineering sprint.</p>
+      <span class="result">~50 leads/day · ~30 surgeries/month · ₹21 lakh booked value monthly</span>
+      <div class="more">
+        <a href="https://www.medibuddy.in/surgery-care/find-hospitals">▶ Live in production</a>
+        <a href="https://raopunit95.github.io/surgery-network-finder/">Prototype demo</a>
+        <a href="https://github.com/raopunit95/surgery-network-finder">Source</a>
+      </div>
+    </article>
+
+    <article class="case">
       <span class="kicker">0→1 · self-built prototype → production</span>
       <h3>Policy Decoder — insurance transparency as a growth lever</h3>
       <p>Patients defer elective surgery when they can't tell what their corporate policy covers. I built
@@ -150,14 +187,15 @@
       another.</p>
       <span class="result">~2,300 leads/month · 19 corporate accounts × 90+ conditions</span>
       <div class="more">
-        <a href="https://raopunit95.github.io/gmc-decoder/">▶ Live prototype</a>
+        <a href="https://www.medibuddy.in/surgery-care/policy">▶ Live in the app</a>
+        <a href="https://raopunit95.github.io/gmc-decoder/">Public prototype</a>
         <a href="https://github.com/raopunit95/punit-yadav/blob/main/case-studies/policy-decoder.md">Case study</a>
         <a href="https://github.com/raopunit95/gmc-decoder">Source</a>
       </div>
     </article>
 
     <article class="case">
-      <span class="kicker">Payments & booking flow</span>
+      <span class="kicker">Payments &amp; booking flow</span>
       <h3>Dental Procedure Booking — when the price isn't knowable at booking</h3>
       <p>A ₹499 deposit at booking with the balance settled after the procedure, because what the dentist
       finds changes the bill. 22 requirements phased into an 18-item V0 — and one 7-day rule-engine build
@@ -169,7 +207,7 @@
     </article>
 
     <article class="case">
-      <span class="kicker">Distribution & prioritisation</span>
+      <span class="kicker">Distribution &amp; prioritisation</span>
       <h3>New Services Hub — winning a slot in the bottom nav</h3>
       <p>Five icons, no sixth. I used tap data across ~1.5M monthly interactions to show which icon held
       0.05% of the traffic, then designed a hub that amortises the reclaimed slot across four services
@@ -202,8 +240,9 @@
     kept coming up in user conversations — <em>"I don't know what my company's policy covers"</em> —
     that no dashboard would have surfaced.</li>
     <li><strong>Smallest thing that produces a real signal.</strong> A no-code CMS beat a proper CMS
-    build by a quarter. A self-built prototype beat waiting for a sprint slot. Cutting a rule engine
-    down to one eligibility check saved seven engineering days and lost nothing.</li>
+    build by a quarter. A self-built prototype beat waiting for a sprint slot — twice, and both are in
+    production now. Cutting a rule engine down to one eligibility check saved seven engineering days
+    and lost nothing.</li>
     <li><strong>Say no in writing.</strong> Every deferral in my specs carries a reason. The
     decisions-made and questions-open register is the part of a PRD I care most about — specs don't
     stall because people disagree, they stall because nobody remembers what was already agreed.</li>
@@ -240,6 +279,21 @@
     <p style="font-size:.93rem;color:var(--ink2);margin-top:8px">Scaled hiring supply 12× while cutting
     turnaround time 3× across 10+ cities; lifted conversion-to-joining from 10% to 17%. Led a 30-person
     team across 5 accounts billing more than ₹20 lakh a month.</p>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">Built in public</span>
+  <h2>The prototypes behind two shipped features</h2>
+  <p>Both of these started as something I built myself to find out whether the idea worked, before
+  asking anyone for engineering time. Both are now in production.</p>
+  <div class="tw">
+    <table>
+      <tbody>
+        <tr><th scope="row"><a href="https://github.com/raopunit95/surgery-network-finder">surgery-network-finder</a></th><td>The prototype behind the Cashless Hospital Finder. 648 hospitals, 3,547 doctors, 218 surgeries, 144 cities, 36 insurers — a static site with zero dependencies. <a href="https://raopunit95.github.io/surgery-network-finder/">Demo</a></td></tr>
+        <tr><th scope="row"><a href="https://github.com/raopunit95/gmc-decoder">gmc-decoder</a></th><td>The prototype behind the Policy Decoder. 19 corporates, 208 conditions, 7,072 coverage rules. <a href="https://raopunit95.github.io/gmc-decoder/">Demo</a></td></tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
