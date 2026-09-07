@@ -5,7 +5,7 @@ rejected, what I chose *not* to build, what it moved, and what I got wrong.
 
 | Case study | Type | Headline result |
 |---|---|---|
-| [Cashless Hospital Finder](https://www.medibuddy.in/surgery-care/find-hospitals) | 0→1, self-built prototype → production | **~50 leads/day → ~30 surgeries/month → ₹21 lakh/month** · [source](https://github.com/raopunit95/surgery-network-finder) · [demo](https://raopunit95.github.io/surgery-network-finder/) |
+| [Cashless Hospital Finder](./case-studies/hospital-finder.md) | 0→1, self-built prototype → production | **~50 leads/day → ~30 surgeries/month → ₹21 lakh/month** · [live](https://www.medibuddy.in/surgery-care/find-hospitals) · [source](https://github.com/raopunit95/surgery-network-finder) |
 | [Policy Decoder](./case-studies/policy-decoder.md) | 0→1, self-built prototype → production | ~2,300 leads/month · 19 corporates × 90+ conditions · [live](https://www.medibuddy.in/surgery-care/policy) *(signed-in)* · [public demo](https://raopunit95.github.io/gmc-decoder/) |
 | [Dental Procedure Booking](./case-studies/dental-booking.md) | Payments & booking flow | ₹16–17 Cr → ₹27 Cr target · a 7-day build cut from scope |
 | [New Services Hub](./case-studies/bottom-nav-hub.md) | Distribution & prioritisation | ~4,000 leads/month at a 40% landing-to-lead rate |
@@ -44,6 +44,8 @@ distance ranking and the condition-to-speciality matching before asking for an e
 648 hospitals, 3,547 doctors, 218 surgeries, 144 cities, 36 insurers — a static site with zero
 dependencies. [Source](https://github.com/raopunit95/surgery-network-finder) ·
 [demo](https://raopunit95.github.io/surgery-network-finder/)
+
+**[Read the full case study →](./case-studies/hospital-finder.md)**
 
 ---
 

@@ -18,7 +18,7 @@ whether an idea deserves a sprint.
 Write-ups with the reasoning left in — the options I rejected, the things I chose *not* to build,
 and the results.
 
-### 🏥 [Cashless Hospital Finder — live in production](https://www.medibuddy.in/surgery-care/find-hospitals)
+### 🏥 [Cashless Hospital Finder — live in production](./case-studies/hospital-finder.md)
 **[▶ Live](https://www.medibuddy.in/surgery-care/find-hospitals)** · [prototype demo](https://raopunit95.github.io/surgery-network-finder/) · [source](https://github.com/raopunit95/surgery-network-finder)
 
 A patient wants one answer: *where can I have this surgery done, near me, cashless on my insurance?*
